@@ -14,7 +14,6 @@ $query->execute([$email]);
 $user=$query->fetch(PDO::FETCH_OBJ);
 
 if(!empty($user)){
-    // print_r($password . "  ".  $patient->Password);
   
     if($password == $user->Password){
         if ($user->UA!="A"){
