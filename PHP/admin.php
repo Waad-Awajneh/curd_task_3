@@ -19,7 +19,6 @@ require_once 'connection.php';
             <div class="col-md-12">
                 <h3>Users Informations</h3>
                 <hr /> 
-                <a href="create.php"><button class="btn btn-primary"> Add user</button></a>
                 <div class="table-responsive">
                     <table id="mytable" class="table table-bordred table-striped">
                         <thead>
