@@ -14,8 +14,8 @@
 
 <body>
     <header>
-            <div class="container-fluid">
-                <h1>Welcome <?php echo $_GET['name']?>
+            <div style="margin-top: 150px;" class="container-fluid">
+                <h1 class="h1 text-center">Welcome <?php echo $_GET['name']?>
                 </h1>
             </div>
     </header>
